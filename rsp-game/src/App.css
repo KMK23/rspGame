@@ -1,0 +1,103 @@
+.App {
+  min-width: 575px;
+  max-width: 625px;
+  margin: 45px auto;
+  background-color: #6f00ff;
+  position: relative;
+  padding: 50px;
+  box-shadow: 0 4px 2px #5900cc;
+  border-radius: 44px;
+  width: 100%;
+  text-align: center;
+}
+.App-heading {
+  margin: 0 0 34px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.App-reset {
+  position: absolute;
+  top: 40px;
+  right: 48px;
+  cursor: pointer;
+}
+.App-scores > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.Score {
+  min-width: 130px;
+  height: 130px;
+  border-radius: 27px;
+  padding: 28px 35px;
+  background-color: #6000db;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.07);
+  line-height: 1;
+}
+.Score-num {
+  color: #fc0;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 2px 3px 0 #af8d07;
+}
+.Score-name {
+  margin-top: 16px;
+  color: #9680ff;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: -0.3px;
+}
+.App-scores > .App-versus {
+  margin: 0 8px;
+  font-size: 64px;
+  color: #fff;
+}
+.App-hands > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.App-hands > .App-versus {
+  color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+  text-shadow: 0 3px 0 hsla(0, 0%, 87, 5%0.5);
+  letter-spacing: -0.3px;
+}
+.App-bet {
+  margin-top: -15px;
+  color: #fff;
+  font-size: 18px;
+}
+.App-bet > * {
+  vertical-align: middle;
+}
+.App-bet > input {
+  width: 73px;
+  margin: 0 9px;
+  padding: 4px 10px;
+  border: 2px solid #753cf7;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 17px;
+  background-color: #6000db;
+}
+.App-history {
+  margin: 20px 40px 36px;
+  padding: 30px 48px;
+  border-radius: 24px;
+  color: #625f63;
+  background-color: #fff;
+  box-shadow: 1px 3px 8px 0 rgba(89, 72, 112, 0.44),
+    1px 5px 3px 0 rgba(215, 189, 248, 0.65);
+}
+.App-history > h2 {
+  margin: 0;
+  color: #6000db;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: -0.24px;
+}
